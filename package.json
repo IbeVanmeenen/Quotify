@@ -1,0 +1,16 @@
+{
+  "name": "QuoJob",
+  "version": "0.1.0",
+  "description": "Quotify - Beautify QuoJob",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/IbeVanmeenen/Quotify.git"
+  },
+  "author": "IbeVanmeenen",
+  "readmeFilename": "readme.md",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-sass": "~0.7.3"
+  }
+}

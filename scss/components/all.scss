@@ -1,0 +1,326 @@
+#mainFrame frame[name="main"] {
+    border-right: 1px solid #9D9FD0;
+}
+
+table {
+    border: none;
+}
+
+.grouping_c_ng {
+    background: none;
+}
+
+.navLinkSeperator, td.topnav_icon img {
+    display: none;
+}
+
+.navQuoGel_zoom {
+    display: none;
+}
+
+.navigation_content {
+    background: url('http://ibevanmeenen.me/img/icons/qjob.jpg') 15px 15px no-repeat;
+    background-size: 40px;
+}
+
+.table_header_row {
+    background: none;
+    border-bottom: 1px solid #9D9FD0;
+    border-top: 1px solid #9D9FD0;
+}
+
+.topnav_separator {
+    color: #fff;
+    padding: 0 5px;
+}
+
+a, a:link, a:visited, a:active, a:hover, a.kontakte, a.ghosted:link, a.ghosted:visited, a.ghosted:active, a.ghosted:hover, a.popupclose:link, a.popupclose:visited, a.popupclose:active, a.popupclose:hover, a.navLink:link, a.navLink:visited, a.navLink:active, a.navLink:hover, a.top_nonnavlink:link, a.top_nonnavlink:visited, a.top_nonnavlink:active, a.top_nonnavlink:hover, a.pda_centertop:visited, a.pda_centertop:active, a.pda_centertop:hover, a.pda_centertop:link, a.sidelink:link, a.sidelink:visited, a.sidelink:active, a.sidelink:hover, a.centertop:active, a.centertop:visited, a.centertop:link, a.centertop:hover, a.gfxbutton, a.gfxbutton:visited, a.gfxbutton:active, a.gfxbutton:hover, a.bereichTitelDark, a.bereichTitelDark:link, a.bereichTitelDark:visited, a.bereichTitelDark:hover, a.bereichTitelDarkactive:active, a.navLink, a.navLink:link, a.navLink:active, a.navLink:visited, a.navLink:hover, a.navLinkAktiv, a.navLinkAktiv:link, a.navLinkAktiv:active, a.navLinkAktiv:visited, a.navLinkAktiv:hover, a.navLinkInaktiv, a.navLinkInaktiv:link, a.navLinkInaktiv:active, a.navLinkInaktiv:visited, a.navLinkInaktiv:hover, a.login, a.login:hover, a.login:link, a.login:visited, a.login:active {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+
+a.navLinkAktiv:link, a.navLinkAktiv:visited, a.navLinkAktiv:active, a.navLinkAktiv:hover {
+    color: #9D9FD0;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a.navlink:link, a.navlink:visited, a.navlink:active {
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+body#navigation {
+    background: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+
+/* Header QuoJob */
+
+div.leftframe, div.rightframe, div.centerframe, div.centerframe_large {
+    background: #fff;
+}
+
+div.tabBarTab_a, div.tabBarTab_sub_a {
+    border-bottom-color: #fff;
+}
+
+div.tabbartab_a, div.tabbartab_c, div.tabbartab_d:hover, td.top_nav_ghost, div.tabbartab_d {
+    background: #fff;
+    text-decoration: none;
+}
+
+frame[name="navigation"] {
+    border-bottom: 1px solid #9D9FD0;
+}
+
+input.qoogle_input {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+input.qoogle_input:focus {
+    border: 1px solid #9D9FD0;
+    outline: none;
+}
+
+input[type=submit].selektion, input[type=button].selektion, input[type=submit].w120, input[type=button].w120, input.button_save {
+    background: #fff;
+    border: 1px solid #9D9FD0;
+    border-radius: 3px;
+    color: #9D9FD0;
+    cursor: pointer;
+    height: auto;
+    padding: 10px;
+}
+
+input[type=submit].selektion:hover, input[type=button].selektion:hover, input[type=submit].w120:hover, input[type=button].w120:hover, input.button_save:hover {
+    background: #9D9FD0;
+    box-shadow: none;
+    color: #fff;
+}
+
+td.bereichTitel, td.content td.bereichTitel, div.bereichTitel, td.content div.bereichTitel, .bereichTitel, td.content .bereichTitel, .popupdiv .bereichTitel {
+    color: #79bd9a;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+td.navLinkAktiv {
+    background: none;
+}
+
+td.selektion input, td.selektion select, td.selektion textarea, td.content input, td.content select, td.content textarea, input.login_input {
+    border: 1px solid #ccc;
+    height: 25px;
+    padding: 6px 10px;
+}
+
+td.selektion input:focus, td.selektion select:focus, td.selektion textarea:focus, td.content input:focus, td.content select:focus, td.content textarea:focus, input.login_input:focus {
+    background: #fff;
+    border: 1px solid #9D9FD0;
+    outline: none;
+}
+
+td.selektion, td.content, td.content *, td.selektion input, td.selektion select, td.selektion textarea, td.content input, td.content select, td.content textarea, input.login_input {
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+td.topnav_icon table {
+    height: auto;
+}
+
+td.topnav_icon, a.topnav_content, td.topnav_content, td.topnav_content_green, td.topnav_icon, a.topnav_content:link, a.topnav_content:active, a.topnav_content:visited, td.topnav_content_green, td.topnav_content, div.content, table.login_form {
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+}
+
+div.login_box {
+    background: url('http://ibevanmeenen.me/img/icons/qjob.jpg') 15px 15px no-repeat;
+    background-size: 40px;
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    padding-top: 70px;
+}
+
+div.bg_line_wrap {
+    display: none;
+}
+
+img[src="customerfiles/templates/gfx/logo_dataline.png"] {
+    display: none;
+}
+
+button.login {
+    background: #fff;
+    border: 1px solid #9D9FD0;
+    border-radius: 3px;
+    color: #9D9FD0;
+    cursor: pointer;
+    height: auto;
+    padding: 10px;
+}
+
+button.login:before {
+    content: 'login';
+}
+
+button.login:hover {
+    background: #9D9FD0;
+    box-shadow: none;
+    color: #fff;
+}
+
+button.login img {
+    display: none;
+}
+
+input.login_input {
+    background: #fff;
+}
+
+div.login_box div.header img {
+    display: none;
+}
+
+.table_header_row_date, .table_header_ar_kv {
+    background: #fff;
+    border: 1px solid #9D9FD0;
+    border-left: none;
+    border-right: none;
+}
+
+.grouping_tab_inhalt {
+    margin-top: 20px;
+}
+
+.table_header_row, .table_header_row *, td.content.table_header_row *, td.content .table_header_row *, .table_header_textcell_text_sortable {
+    color: #9D9FD0;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    background: none;
+    text-decoration: none;
+}
+
+div.popupdiv {
+    border: 1px solid #9D9FD0;
+    box-shadow: 0 0 100px 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+table.popupdiv, td.popupdiv, #local_time, #msg_popup_title {
+    background: #9D9FD0;
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+}
+
+.table_row_container_0:nth-child(2n+1) {
+    border: none;
+}
+
+#local_time {
+    border: none;
+}
+
+#msg_popup {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#msg_popup #msg_popup_title {
+    background: #fff;
+    color: #9D9FD0;
+}
+
+#msg_popup table {
+    background: #fff;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+#msv_popup #msg_top {
+    background: #fff;
+}
+
+#msg_popup #msg_top table {
+    background: #fff;
+    border: none;
+}
+
+.login_box div.header {
+    display: none;
+}
+
+th.kalender_kw, th.kalender_wt, th.kalender_we, td.kalender_kw, td.kalender_wt, td.kalender_we {
+    background: #fff;
+}
+
+th.kalender_kw, th.kalender_wt, th.kalender_we, td.kalender_kw, td.kalender_we {
+    color: #ccc;
+}
+
+td.kalender_wt {
+    color: #333 ;
+}
+
+td.kalender_kw a, td.kalender_we a, td.kalender_wt a {
+    text-decoration: none;
+    display: block;
+}
+
+td.kalender_wt span[style="font-weight:bold;background-color:#eeeeee;"], td.kalender_wt span[style="background-color:#eeeeee;"] {
+    display: block;
+    border-radius: 50%;
+    background: #79bd9a;
+    width: 20px;
+    line-height: 20px;
+    height: 20px;
+    font-size: 12px;
+    margin: -2px auto;
+    color: #fff;
+}
+
+.bereichTitelDark, td.content .bereichTitelDark {
+    background: #fff;
+    color: #9D9FD0;
+}
+
+.bereichTitleDark_shadow {
+    background: #fff;
+    border-top: 1px solid #9D9FD0;
+}
+
+#msg_body {
+    margin: 0;
+    padding: 20px 0;
+    width: 100%;
+}
+
+#msg_body hr, hr {
+    border: none;
+    border-top: 1px solid #B0DDC2;
+}
+
