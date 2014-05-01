@@ -1,0 +1,49 @@
+/* ==========================================================================
+   Message
+   ========================================================================== */
+
+#msg_popup {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#msg_popup #msg_popup_title {
+    background: $white;
+    color: $purple;
+}
+
+#msg_body {
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+}
+
+#msg_body hr, hr {
+    border: none;
+    border-top: 1px solid $green-light;
+}
+
+#msg_popup table {
+    background: $white;
+    border: none;
+    border-top: 1px solid $grey;
+}
+
+#msv_popup #msg_top {
+    background: $white;
+}
+
+#msg_popup #msg_top table {
+    background: $white;
+    border: none;
+}
+
+.bereichTitelDark, td.content .bereichTitelDark {
+    background: $white;
+    color: $purple;
+}
+
+.bereichTitleDark_shadow {
+    background: $white;
+    border-top: 1px solid $purple;
+}

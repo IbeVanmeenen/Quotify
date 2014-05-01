@@ -1,0 +1,81 @@
+/* ==========================================================================
+   Top Navigation
+   ========================================================================== */
+
+.grouping_c_ng {
+    background: none;
+}
+
+.navLinkSeperator, td.topnav_icon img, .navQuoGel_zoom {
+    display: none;
+}
+
+.navigation_content {
+    background: url('http://ibevanmeenen.me/img/icons/qjob.jpg') 15px 15px no-repeat;
+    background-size: 40px;
+}
+
+.table_header_row {
+    background: none;
+    border-bottom: 1px solid $purple;
+    border-top: 1px solid $purple;
+}
+
+.topnav_separator {
+    color: $white;
+    padding: 0 5px;
+}
+
+a.navLinkAktiv:link, a.navLinkAktiv:visited, a.navLinkAktiv:active, a.navLinkAktiv:hover {
+    color: $purple;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a.navlink:link, a.navlink:visited, a.navlink:active {
+    color: $black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+body#navigation {
+    background: $white;
+}
+
+td.bereichTitel, td.content td.bereichTitel, div.bereichTitel, td.content div.bereichTitel, .bereichTitel, td.content .bereichTitel, .popupdiv .bereichTitel {
+    color: #79bd9a;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+td.navLinkAktiv {
+    background: none;
+}
+
+td.selektion input, td.selektion select, td.selektion textarea, td.content input, td.content select, td.content textarea, input.login_input {
+    border: 1px solid #ccc;
+    height: 25px;
+    padding: 6px 10px;
+}
+
+td.selektion input:focus, td.selektion select:focus, td.selektion textarea:focus, td.content input:focus, td.content select:focus, td.content textarea:focus, input.login_input:focus {
+    background: #fff;
+    border: 1px solid #9D9FD0;
+    outline: none;
+}
+
+td.selektion, td.content, td.content *, td.selektion input, td.selektion select, td.selektion textarea, td.content input, td.content select, td.content textarea, input.login_input {
+    color: #333;
+    font-size: 12px;
+}
+
+td.topnav_icon table {
+    height: auto;
+}
+
+td.topnav_icon, a.topnav_content, td.topnav_content, td.topnav_content_green, td.topnav_icon, a.topnav_content:link, a.topnav_content:active, a.topnav_content:visited, td.topnav_content_green, td.topnav_content, div.content, table.login_form {
+    color: #333;
+    font-size: 12px;
+    line-height: 14px;
+}

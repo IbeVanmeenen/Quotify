@@ -1,0 +1,19 @@
+/* ==========================================================================
+   Button
+   ========================================================================== */
+
+%btn {
+    height: auto;
+    padding: 10px;
+    cursor: pointer;
+
+    background: $white;
+    border: 1px solid $purple;
+    border-radius: 3px;
+    color: $purple;
+    &:hover {
+        background: $purple;
+        box-shadow: none;
+        color: $white;
+    }
+}

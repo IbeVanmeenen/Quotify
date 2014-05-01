@@ -1,0 +1,27 @@
+/* ==========================================================================
+   Login
+   ========================================================================== */
+
+div.login_box {
+    padding-top: 70px;
+
+    background: url('http://ibevanmeenen.me/img/icons/qjob.jpg') 15px 15px no-repeat;
+    background-size: 40px;
+    font-size: 12px;
+    line-height: 14px;
+    color: $black;
+    box-shadow: none;
+    border: 1px solid $grey;
+}
+
+div.bg_line_wrap, img[src="customerfiles/templates/gfx/logo_dataline.png"], button.login img, div.login_box div.header img, .login_box div.header{
+    display: none;
+}
+
+button.login:before {
+    content: 'login';
+}
+
+input.login_input {
+    background: $white;
+}

@@ -13,6 +13,20 @@
         "config/typography";
 
 
+/* Placeholders
+   ========================================================================== */
+@import "placeholders/button";
+
+
 /* Components
    ========================================================================== */
-@import "components/all";
+@import "components/general",
+        "components/typography",
+        "components/buttons",
+        "components/top-navigation",
+        "components/calendar",
+        "components/login",
+        "components/msg",
+        "components/popup",
+        "components/table",
+        "components/header";
