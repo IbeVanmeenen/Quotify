@@ -3,8 +3,8 @@
    ========================================================================== */
 
 .table_header_row_date, .table_header_ar_kv {
-    background: #fff;
-    border: 1px solid #9D9FD0;
+    background: $white;
+    border: 1px solid $purple;
     border-left: none;
     border-right: none;
 }
@@ -14,7 +14,7 @@
 }
 
 .table_header_row, .table_header_row *, td.content.table_header_row *, td.content .table_header_row *, .table_header_textcell_text_sortable {
-    color: #9D9FD0;
+    color: $purple;
     font-size: 12px;
     font-weight: bold;
     line-height: 14px;

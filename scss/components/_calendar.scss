@@ -19,7 +19,7 @@ td.kalender_kw a, td.kalender_we a, td.kalender_wt a {
     text-decoration: none;
 }
 
-td.kalender_wt span[style="font-weight:bold;background-color:#eeeeee;"], td.kalender_wt span[style="background-color:#eeeeee;"], td.kalender_wt span[style="color:FC8585;font-weight:bold;background-color:#eeeeee;"], td.kalender_we span[style="font-weight:bold;background-color:#eeeeee;"], td.kalender_we span[style="background-color:#eeeeee;"], td.kalender_we span[style="color:FC8585;font-weight:bold;background-color:#eeeeee;"], td.kalendar_wt span[style="color:3F3939;background-color:#eeeeee;"], td.kalendar_we span[style="color:3F3939;background-color:#eeeeee;"] {
+td.kalender_wt span[style*="background-color:#eeeeee;"], td.kalender_we span[style*="background-color:#eeeeee;"] {
     display: block;
     width: 20px;
     height: 20px;

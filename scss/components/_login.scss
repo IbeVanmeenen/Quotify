@@ -14,7 +14,7 @@ div.login_box {
     border: 1px solid $grey;
 }
 
-div.bg_line_wrap, img[src="customerfiles/templates/gfx/logo_dataline.png"], button.login img, div.login_box div.header img, .login_box div.header{
+div.bg_line_wrap, img[src*="logo_dataline.png"], button.login img, div.login_box div.header img, .login_box div.header{
     display: none;
 }
 
