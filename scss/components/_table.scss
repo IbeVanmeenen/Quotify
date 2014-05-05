@@ -1,0 +1,31 @@
+/* ==========================================================================
+   Table
+   ========================================================================== */
+
+.table_header_row_date, .table_header_ar_kv {
+    background: $white;
+    border: 1px solid $accent-color-1;
+    border-left: none;
+    border-right: none;
+}
+
+.grouping_tab_inhalt {
+    margin-top: 20px;
+}
+
+.table_header_row, .table_header_row *, td.content.table_header_row *, td.content .table_header_row *, .table_header_textcell_text_sortable {
+    color: $accent-color-1;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    background: none;
+    text-decoration: none;
+}
+
+.table_row_container_0:nth-child(2n+1) {
+    border: none;
+}
+
+#local_time {
+    border: none;
+}

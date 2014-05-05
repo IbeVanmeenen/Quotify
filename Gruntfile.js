@@ -14,7 +14,7 @@ module.exports = function(grunt) {
                     style: 'compressed'
                 },
                 files: {
-                    './css/Quotify.css': './scss/Quotify.scss'
+                    './css/quotify-default.css': './scss/themes/quotify-default.scss'
                 }
             }
         }

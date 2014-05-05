@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Quotify - Default theme
+
+   Beautify QuoJob
+   ========================================================================== */
+
+
+/* Colors - Default
+   ========================================================================== */
+$black:         #333;
+$white:         #fff;
+$grey:          #ccc;
+
+
+/* Colors - Accents
+   ========================================================================== */
+$accent-color-1:    #9d9fd0;
+$accent-color-2:    #79bd9a;
+
+
+/* Colors - Components
+   ========================================================================== */
+// Button
+$btn-color:               $accent-color-1;
+$btn-border-color:        $accent-color-1;
+$btn-background:          $white;
+
+$btn-hover-color:         $white;
+$btn-hover-border-color:  $accent-color-1;
+$btn-hover-background:    $accent-color-1;
+
+
+/* Typography
+   ========================================================================== */
+$main-font: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+$font-weight-normal:    300;
+$font-weight-bold:      500;
+
+
+/* Logo
+   ========================================================================== */
+$logo-url:    'http://ibevanmeenen.me/img/icons/qjob.jpg';
+
+
+/* Placeholders
+   ========================================================================== */
+@import "../placeholders/placeholders";
+
+
+/* Components
+   ========================================================================== */
+@import "../components/components";

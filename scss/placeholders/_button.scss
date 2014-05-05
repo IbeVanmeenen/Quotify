@@ -1,0 +1,22 @@
+/* ==========================================================================
+   Button
+   ========================================================================== */
+
+%btn {
+    height: auto;
+    padding: 10px;
+    cursor: pointer;
+
+    background: $btn-background;
+    border: 1px solid $btn-border-color;
+    border-radius: 3px;
+
+    color: $btn-color;
+
+    &:hover {
+        box-shadow: none;
+        background: $btn-hover-background;
+        border-color: $btn-hover-border-color;
+        color: $btn-hover-color;
+    }
+}

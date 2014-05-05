@@ -1,0 +1,33 @@
+/* ==========================================================================
+   Calendar
+   ========================================================================== */
+
+th.kalender_kw, th.kalender_wt, th.kalender_we, td.kalender_kw, td.kalender_wt, td.kalender_we {
+    background: $white;
+}
+
+th.kalender_kw, th.kalender_wt, th.kalender_we, td.kalender_kw, td.kalender_we {
+    color: $grey;
+}
+
+td.kalender_wt {
+    color: $black;
+}
+
+td.kalender_kw a, td.kalender_we a, td.kalender_wt a {
+    display: block;
+    text-decoration: none;
+}
+
+td.kalender_wt span[style*="background-color:#eeeeee;"], td.kalender_we span[style*="background-color:#eeeeee;"] {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: -2px auto;
+
+    border-radius: 50%;
+    background: $accent-color-2;
+    font-size: 12px;
+    line-height: 20px;
+    color: $white;
+}
