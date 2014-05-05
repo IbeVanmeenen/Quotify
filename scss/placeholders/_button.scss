@@ -7,13 +7,16 @@
     padding: 10px;
     cursor: pointer;
 
-    background: $white;
-    border: 1px solid $purple;
+    background: $btn-background;
+    border: 1px solid $btn-border-color;
     border-radius: 3px;
-    color: $purple;
+
+    color: $btn-color;
+
     &:hover {
-        background: $purple;
         box-shadow: none;
-        color: $white;
+        background: $btn-hover-background;
+        border-color: $btn-hover-border-color;
+        color: $btn-hover-color;
     }
 }

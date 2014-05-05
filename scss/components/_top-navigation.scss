@@ -53,14 +53,14 @@ td.navLinkAktiv {
 }
 
 td.selektion input, td.selektion select, td.selektion textarea, td.content input, td.content select, td.content textarea, input.login_input {
-    border: 1px solid #ccc;
+    border: 1px solid $grey;
     height: 25px;
     padding: 6px 10px;
 }
 
 td.selektion input:focus, td.selektion select:focus, td.selektion textarea:focus, td.content input:focus, td.content select:focus, td.content textarea:focus, input.login_input:focus {
-    background: #fff;
-    border: 1px solid #9D9FD0;
+    background: $white;
+    border: 1px solid $purple;
     outline: none;
 }
 
@@ -74,7 +74,7 @@ td.topnav_icon table {
 }
 
 td.topnav_icon, a.topnav_content, td.topnav_content, td.topnav_content_green, td.topnav_icon, a.topnav_content:link, a.topnav_content:active, a.topnav_content:visited, td.topnav_content_green, td.topnav_content, div.content, table.login_form {
-    color: #333;
+    color: $black;
     font-size: 12px;
     line-height: 14px;
 }

@@ -5,7 +5,7 @@
 div.login_box {
     padding-top: 70px;
 
-    background: url('http://ibevanmeenen.me/img/icons/qjob.jpg') 15px 15px no-repeat;
+    background: url(#{$logo-url}) 15px 15px no-repeat;
     background-size: 40px;
     font-size: 12px;
     line-height: 14px;
