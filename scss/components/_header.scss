@@ -10,13 +10,13 @@ div.tabBarTab_a, div.tabBarTab_sub_a {
     border-bottom-color: $white;
 }
 
-div.tabbartab_a, div.tabbartab_c, div.tabbartab_d:hover, td.top_nav_ghost, div.tabbartab_d {
+div.tabbartab_a, div.tabbartab_c, div.tabbartab_d:hover, div.tabbartab_d {
     background: $white;
     text-decoration: none;
 }
 
 frame[name="navigation"] {
-    border-bottom: 1px solid $purple;
+    border-bottom: 1px solid $accent-color-1;
 }
 
 input.qoogle_input {
@@ -30,6 +30,6 @@ input.qoogle_input {
 }
 
 input.qoogle_input:focus {
-    border: 1px solid $purple;
+    border: 1px solid $accent-color-1;
     outline: none;
 }

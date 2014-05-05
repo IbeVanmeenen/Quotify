@@ -11,14 +11,14 @@
 }
 
 .navigation_content {
-    background: url('http://ibevanmeenen.me/img/icons/qjob.jpg') 15px 15px no-repeat;
+    background: url(#{$logo-url}) 15px 15px no-repeat;
     background-size: 40px;
 }
 
 .table_header_row {
     background: none;
-    border-bottom: 1px solid $purple;
-    border-top: 1px solid $purple;
+    border-bottom: 1px solid $accent-color-1;
+    border-top: 1px solid $accent-color-1;
 }
 
 .topnav_separator {
@@ -27,7 +27,7 @@
 }
 
 a.navLinkAktiv:link, a.navLinkAktiv:visited, a.navLinkAktiv:active, a.navLinkAktiv:hover {
-    color: $purple;
+    color: $accent-color-1;
     font-size: 16px;
     text-decoration: none;
 }
@@ -60,7 +60,7 @@ td.selektion input, td.selektion select, td.selektion textarea, td.content input
 
 td.selektion input:focus, td.selektion select:focus, td.selektion textarea:focus, td.content input:focus, td.content select:focus, td.content textarea:focus, input.login_input:focus {
     background: $white;
-    border: 1px solid $purple;
+    border: 1px solid $accent-color-1;
     outline: none;
 }
 

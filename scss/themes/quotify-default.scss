@@ -7,38 +7,29 @@
    ========================================================================== */
 
 
-/* Colors
+/* Colors - Default
    ========================================================================== */
 $black:         #333;
 $white:         #fff;
-
 $grey:          #ccc;
 
-$purple:        #9d9fd0;
 
-$green:         #79bd9a;
-$green-light:   #b0ddc2;
-
-$accent-color-1:    $purple;
-$accent-color-2:    $green;
-
-
-/* Colors - default
+/* Colors - Accents
    ========================================================================== */
-$accent-color-1:    $purple;
-$accent-color-2:    $green;
+$accent-color-1:    #9d9fd0;
+$accent-color-2:    #79bd9a;
 
 
 /* Colors - Components
    ========================================================================== */
 // Button
-$btn-color:               $purple;
-$btn-border-color:        $purple;
+$btn-color:               $accent-color-1;
+$btn-border-color:        $accent-color-1;
 $btn-background:          $white;
 
 $btn-hover-color:         $white;
-$btn-hover-border-color:  $purple;
-$btn-hover-background:    $purple;
+$btn-hover-border-color:  $accent-color-1;
+$btn-hover-background:    $accent-color-1;
 
 
 /* Typography
@@ -49,17 +40,18 @@ $font-weight-normal:    300;
 $font-weight-bold:      500;
 
 
-/* Typography
+/* Logo
    ========================================================================== */
 $logo-url:    'http://ibevanmeenen.me/img/icons/qjob.jpg';
+
+
+
 
 
 
 /* Placeholders
    ========================================================================== */
 @import "../placeholders/placeholders";
-
-
 
 
 /* Components

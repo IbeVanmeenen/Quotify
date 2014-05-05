@@ -1,4 +1,6 @@
 Quotify
 =======
 
-Beautify QuoJob 
+Beautify QuoJob
+v 0.1.0
+

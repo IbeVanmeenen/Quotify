@@ -4,7 +4,7 @@
 
 .table_header_row_date, .table_header_ar_kv {
     background: $white;
-    border: 1px solid $purple;
+    border: 1px solid $accent-color-1;
     border-left: none;
     border-right: none;
 }
@@ -14,7 +14,7 @@
 }
 
 .table_header_row, .table_header_row *, td.content.table_header_row *, td.content .table_header_row *, .table_header_textcell_text_sortable {
-    color: $purple;
+    color: $accent-color-1;
     font-size: 12px;
     font-weight: bold;
     line-height: 14px;
