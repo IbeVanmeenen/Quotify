@@ -2,7 +2,7 @@ Quotify
 =======
 
 Beautify QuoJob<br/>
-v 0.1.0<br/>
+v 0.1.1<br/>
 http://ibevanmeenen.me/projects/quotify.html
 
 ### What
@@ -30,4 +30,4 @@ Example for adding a feature/bugfix/theme:
 
 
 ### License
-Cupcake is licensed under the [MIT license](http://opensource.org/licenses/MIT).
+QuoJob is licensed under the [MIT license](http://opensource.org/licenses/MIT).

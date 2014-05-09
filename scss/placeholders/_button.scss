@@ -13,6 +13,7 @@
 
     color: $btn-color;
 
+    transition: color .15s ease, background .15s ease;
     &:hover {
         box-shadow: none;
         background: $btn-hover-background;

@@ -14,12 +14,17 @@
 }
 
 .table_header_row, .table_header_row *, td.content.table_header_row *, td.content .table_header_row *, .table_header_textcell_text_sortable {
-    color: $accent-color-1;
+    color: $black;
     font-size: 12px;
     font-weight: bold;
     line-height: 14px;
     background: none;
     text-decoration: none;
+    a {
+        &:hover {
+            color: $accent-color-1;
+        }
+    }
 }
 
 .table_row_container_0:nth-child(2n+1) {

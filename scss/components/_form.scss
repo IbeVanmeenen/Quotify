@@ -1,0 +1,21 @@
+/* ==========================================================================
+   Form elements
+   ========================================================================== */
+
+td.selektion input, td.selektion select, td.selektion textarea, td.content input, td.content select, td.content textarea, input.login_input {
+    border: 1px solid $grey;
+    height: 25px;
+    padding: 8px 10px;
+    margin-bottom: 6px;
+    &:focus {
+        background: $white;
+        border: 1px solid $accent-color-1;
+        outline: none;
+    }
+}
+
+td.content .table_header_row {
+    td.selektion input, td.selektion select, td.selektion textarea, td.content input, td.content select, td.content textarea, input.login_input, select {
+        margin-bottom: 0;
+    }
+}
