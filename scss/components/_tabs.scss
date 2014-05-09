@@ -1,0 +1,27 @@
+/* ==========================================================================
+   Tabs
+   ========================================================================== */
+
+div.tabbartab_a, div.tabbartab_c, div.tabbartab_d:hover, div.tabbartab_d {
+    border: 1px solid $grey;
+    background: $white;
+    text-decoration: none;
+    &:hover {
+        background: $white;
+        color: $accent-color-1;
+        border-color: $grey;
+    }
+}
+
+div.tabBarTab_a, div.tabBarTab_sub_a {
+    border: 1px solid $grey;
+    border-bottom-color: $white;
+    color: $accent-color-1;
+    background: $white;
+    &:hover {
+        background: $white;
+        color: $accent-color-1;
+        border-color: $grey;
+        border-bottom-color: $white;
+    }
+}
