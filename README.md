@@ -30,4 +30,4 @@ Example for adding a feature/bugfix/theme:
 
 
 ### License
-Cupcake is licensed under the [MIT license](http://opensource.org/licenses/MIT).
+QuoJob is licensed under the [MIT license](http://opensource.org/licenses/MIT).
