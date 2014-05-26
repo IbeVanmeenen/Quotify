@@ -28,7 +28,16 @@
 }
 
 .table_row_container_0:nth-child(2n+1) {
-    border: none;
+    border: 0;
+}
+
+.table_row_container_0:nth-child(2n) {
+    border-top: 0;
+    background: $grey--light;
+}
+
+.mytime_sum {
+    background: $grey--light;
 }
 
 #local_time {

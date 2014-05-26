@@ -4,8 +4,6 @@
 
 td.selektion input, td.selektion select, td.selektion textarea, td.content input, td.content select, td.content textarea, input.login_input {
     border: 1px solid $grey;
-    height: 25px;
-    padding: 8px 10px;
     margin-bottom: 6px;
     &:focus {
         background: $white;
@@ -14,8 +12,48 @@ td.selektion input, td.selektion select, td.selektion textarea, td.content input
     }
 }
 
+td.selektion input, td.content input, input.login_input, td.content textarea, td.selektion textarea {
+    padding: 4px 10px;
+}
+
+td.content textarea {
+    min-height: 100px;
+}
+
+td.selektion select, td.content select{
+    height: 25px;
+    &[multiple] {
+        height: auto;
+        padding: 4px 8px;
+        option {
+            line-height: 25px;
+            height: 25px;
+            background: $white;
+            &:nth-child(odd) {
+                background: $grey--light;
+            }
+            &:hover {
+                background: $accent-color-1;
+            }
+        }
+    }
+}
+
 td.content .table_header_row {
     td.selektion input, td.selektion select, td.selektion textarea, td.content input, td.content select, td.content textarea, input.login_input, select {
         margin-bottom: 0;
     }
+}
+
+.error {
+    padding: 8px 10px;
+    border-color: $red;
+    &, & *, > span {
+        color: $red;
+    }
+}
+
+#select_todo_icon, #select_job_icon, #select_la_icon, #select_la_ep_icon {
+    top: 8px;
+    right: 4px;
 }

@@ -2,6 +2,7 @@
    General Buttons
    ========================================================================== */
 
-input[type=submit].selektion, input[type=button].selektion, input[type=submit].w120, input[type=button].w120, input.button_save, button.login {
+input[type=submit], input[type=submit].selektion, input[type=button].selektion, input[type=submit].w120, input[type=button].w120, input.button_save, button.login, input[type=submit].w60, input[type=button].w60 {
     @extend %btn;
 }
+
