@@ -2,7 +2,7 @@ Quotify
 =======
 
 Beautify QuoJob<br/>
-v 0.1.1<br/>
+v 0.2.0<br/>
 http://ibevanmeenen.me/projects/quotify.html
 
 ### What
